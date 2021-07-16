@@ -1,0 +1,30 @@
+{
+  "name": "html2pdf-server",
+  "version": "1.0.0",
+  "description": "html2pdf conversion server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashuvssut/html2pdf-server.git"
+  },
+  "keywords": [
+    "html2pdf",
+    "node"
+  ],
+  "author": "ashuvssut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashuvssut/html2pdf-server/issues"
+  },
+  "homepage": "https://github.com/ashuvssut/html2pdf-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "puppeteer": "^10.1.0"
+  }
+}
