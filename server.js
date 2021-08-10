@@ -32,7 +32,7 @@ app.post("/generatePdf", async (req, res) => {
 			printBackground: true,
 			margin: "none",
 		});
-		// console.log(pdfBuffer);
+
 		return res.json({ pdfBuffer });
 	} catch (err) {
 		console.log(err);
